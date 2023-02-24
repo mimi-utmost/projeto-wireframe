@@ -20,6 +20,15 @@ header nav ul {
     display: flex;
     margin-right: 32px;
 }
+
+header nav ul li {
+    margin-left: 32px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0px;
+}
+
 header nav .btn-primary {
     padding: 0.9rem 3.4rem;
 }
