@@ -85,3 +85,31 @@ header nav .btn-primary {
     padding-top: 10.4rem;
     padding-bottom: 12rem;
 }
+
+.s-card-featured .main-area {
+    border-bottom:  1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 12.5rem;
+}
+
+.s-card-featured .title {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-card-featured .title.center {
+    align-items: center;
+}
+
+.s-card-featured .title p {
+    margin-top: 0.8rem;
+}
+
+.s-card-featured p {
+    color: var(--white-colors-text);
+}
+
+.s-card-featured .all-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+}
