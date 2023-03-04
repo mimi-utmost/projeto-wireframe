@@ -164,6 +164,7 @@ header nav .btn-primary {
 }
 .s-card-featured .second-area .all-imgs {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .s-card-featured .second-area .all-imgs .image {
