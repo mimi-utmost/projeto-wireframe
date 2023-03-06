@@ -165,6 +165,7 @@ header nav .btn-primary {
 .s-card-featured .second-area .all-imgs {
     display: flex;
     flex-wrap: wrap;
+    gap: 32px;
 }
 
 .s-card-featured .second-area .all-imgs .image {
