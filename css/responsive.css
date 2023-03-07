@@ -17,6 +17,10 @@
     .s-card-featured .second-area .all-imgs .image {
         width: 23.5%;
     }
+
+    footer main nav {
+        max-width: 6.3rem;
+    }
 }
 
 @media(max-width:991px) {
@@ -66,10 +70,32 @@
         max-width: 100%;
         margin-top: 20px;
     }
+
+    footer main nav {
+        max-width: 4.5rem;
+    }
 }
 
 @media(max-width:768px) {
-    
+    footer main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer main .area-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+
+    footer main .area-left p {
+        text-align: center;
+    }
+
+    footer main nav {
+        max-width: 100%;
+    }
 }
 
 @media(max-width:600px) {
@@ -132,5 +158,64 @@
 
     .s-card-featured .main-area {
         padding-bottom: 4rem;
+    }
+
+    .s-card-featured .second-area {
+        margin-top: 4rem;
+    }
+
+    .s-card-featured .second-area top p {
+        margin: 0 auto;
+    }
+
+    .s-card-featured .second-area top {
+        margin-bottom: 3rem;
+    }
+
+    .s-card-featured .second-area .all-imgs {
+        gap: 0.5rem 2%;
+    } 
+
+    .s-card-featured .second-area .all-imgs .image {
+        width: 49%;
+    }
+
+    .s-newsletter {
+        padding: 4rem 0;
+    }
+
+    footer {
+        padding: 4rem 0;
+    }
+
+    footer main {
+        padding-bottom: 4rem;
+    }
+
+    footer .copy {
+        flex-direction: column;
+    }
+
+    footer .copy p {
+        margin-bottom: 2rem;
+    }
+
+    footer main nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer main nav .item {
+        margin-bottom: 2rem;
+    }
+
+    footer main nav .item:last-child {
+        margin-bottom: 0;
+    }
+
+    footer main nav .item ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
